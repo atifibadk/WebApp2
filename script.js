@@ -1,4 +1,34 @@
-import data from "./data.js";
+/*I don't know but I can't use type:"module" with require(), so can't 'data' move it in seperate file*/
+const data = [
+    {
+      id: 2,
+      pic:
+        "https://resources.premierleague.com/premierleague/photo/2020/10/21/131abbf9-cfd4-45ab-a2b3-032b3faf918e/Sergio-Aguero.jpg",
+      name: "Sergio Aguero",
+      Role: "Forward",
+      info:
+        "https://en.wikipedia.org/wiki/Sergio_Ag%C3%BCero"
+    },
+    {
+      id: 3,
+      pic:
+        "https://www.vbetnews.com/wp-content/uploads/2020/04/kdb-close-up-min.jpg",
+      name: "Kevin De Bruyne",
+      Role: "Mid Fielder",
+      info:
+        "https://en.wikipedia.org/wiki/Kevin_De_Bruyne"
+    },
+    {
+      id: 4,
+      pic:
+        "https://cdn.theathletic.com/app/uploads/2020/01/08033254/fernandinho-1024x672.jpg",
+      name: "Fernandinho",
+      Role: "Mid Fielder",
+      info:
+        "https://en.wikipedia.org/wiki/Fernandinho_(footballer,_born_May_1985)"
+    }
+  ];
+
 
 
 const buildPlayerCard = (player) => {
@@ -22,8 +52,9 @@ const buildPlayerCard = (player) => {
 
 }
 
-data.forEach(player => buildPlayerCard(player))
 
+
+data.forEach(player =>buildPlayerCard(player))
 
 
 

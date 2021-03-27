@@ -1,0 +1,20 @@
+{
+  "name": "webapp2",
+  "version": "1.0.0",
+  "description": "A ManCity roster app.",
+  "main": "n",
+  "scripts": {
+    "start": "script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atifibadk/WebApp2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atifibadk/WebApp2/issues"
+  },
+  "homepage": "https://github.com/atifibadk/WebApp2#readme",
+  "devDependencies": {}
+}
